@@ -1,0 +1,4 @@
+report/*.html
+report/*.json
+report/screenshots/test_passou/*.png
+report/screenshots/test_falhou/*.png

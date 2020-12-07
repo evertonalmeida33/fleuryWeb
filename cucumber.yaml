@@ -1,0 +1,14 @@
+---
+
+default: -p chrome -p pretty -p homolog -p json -p html
+ci: -p dev_toolbox -p headless -p json -p html -p pretty
+dev: ENV_TYPE=dev
+dev_toolbox: ENV_TYPE=dev_toolbox
+homolog: AMBIENTE=homolog
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+html: --format html --out=report/relatorio.html
+json: --format json --out=report/relatorio.json
+pretty: --format pretty
+progress: --format progress
